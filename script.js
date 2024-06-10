@@ -4,4 +4,4 @@ function dynTime(){
 	let date = new Date()
 	time.innerHTML = `${date.toLocaleString()}`
 }
-setInterval(dynTime,100)
+setInterval(dynTime,1000)
